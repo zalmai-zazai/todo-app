@@ -1,0 +1,10 @@
+* {
+  font-family: sans-serif;
+  height: fit-content;
+}
+@media only screen and (max-width: 767px) {
+  /* Your styles for mobile devices here */
+  * {
+    height: fit-content;
+  }
+}

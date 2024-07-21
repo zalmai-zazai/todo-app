@@ -1,0 +1,24 @@
+/* ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+  list-style-type: none;
+  width: 170px;
+  padding: 0;
+} */
+ul {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 767px) {
+  /* Your styles for mobile devices here */
+  ul {
+    max-width: 410px;
+  }
+}

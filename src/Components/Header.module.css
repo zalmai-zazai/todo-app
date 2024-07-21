@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+}
+.h2 {
+  background-color: rgb(150, 87, 209);
+  padding: 15px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  width: 100%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+@media only screen and (max-width: 767px) {
+  /* Your styles for mobile devices here */
+  .h2 {
+    width: 462px;
+  }
+}
